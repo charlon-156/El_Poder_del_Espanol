@@ -172,11 +172,13 @@
   /**
    * Testimonials slider
    */
+
+  
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 5000000000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
