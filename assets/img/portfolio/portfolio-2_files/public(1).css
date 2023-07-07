@@ -1,0 +1,735 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);:root {
+  --cor-bg-principal: brown; }
+
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.comp-shortcode__header a,
+.comp-shortcode__body a,
+.comp-shortcode__footer a {
+  all: unset; }
+
+.comp-shortcode__header a:hover,
+.comp-shortcode__body a:hover,
+.comp-shortcode__footer a:hover {
+  all: unset; }
+
+.comp-shortcode__header div,
+.comp-shortcode__body div,
+.comp-shortcode__footer div {
+  all: unset; }
+
+.comp-shortcode__header div:hover,
+.comp-shortcode__body div:hover,
+.comp-shortcode__footer div:hover {
+  all: unset; }
+
+.comp-shortcode__header small,
+.comp-shortcode__body small,
+.comp-shortcode__footer small {
+  all: unset; }
+
+.comp-shortcode__header small:hover,
+.comp-shortcode__body small:hover,
+.comp-shortcode__footer small:hover {
+  all: unset; }
+
+.comp-shortcode__header strong,
+.comp-shortcode__body strong,
+.comp-shortcode__footer strong {
+  all: unset; }
+
+.comp-shortcode__header strong:hover,
+.comp-shortcode__body strong:hover,
+.comp-shortcode__footer strong:hover {
+  all: unset; }
+
+.comp-shortcode__header strong,
+.comp-shortcode__body strong,
+.comp-shortcode__footer strong {
+  all: unset; }
+
+.comp-shortcode__header strong:hover,
+.comp-shortcode__body strong:hover,
+.comp-shortcode__footer strong:hover {
+  all: unset; }
+
+.comp-shortcode__header select,
+.comp-shortcode__body select,
+.comp-shortcode__footer select {
+  all: unset; }
+
+.comp-shortcode__header select:hover,
+.comp-shortcode__body select:hover,
+.comp-shortcode__footer select:hover {
+  all: unset; }
+
+.seguros-promo .comp-newshortcode {
+  margin: auto;
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__title {
+  display: grid;
+  min-height: 70px;
+  background-color: #007e47;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__choosen {
+  height: 60px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__choosen .newshortcode__text__choosen {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 17px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #435162; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__choosen .newshortcode__text__choosen_price {
+  float: right;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: right;
+  color: #435162; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__choosen .newshortcode__text__choosen_price b {
+  font-size: 16px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__choosen .newshortcode__text__choosen_price strong {
+  font-size: 36px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header {
+  display: grid;
+  color: #ffffff;
+  min-height: 45px;
+  background-color: #435162;
+  align-items: center;
+  grid-column-gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header__subtitle {
+  font-size: 16px;
+  color: #ffffff; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header__logo {
+  font-size: 10px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header__logo a {
+  box-shadow: none !important; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header__logo svg {
+  width: 110px;
+  height: 20px;
+  object-fit: contain; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header__selection {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  background: url("../assets/drop-down.svg") no-repeat center right #435162;
+  border-color: #435162;
+  height: 25px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  padding: 0 15px 0 0;
+  text-align: right;
+  width: auto; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item {
+  display: grid;
+  grid-gap: 0 5px;
+  grid-template-rows: max-content;
+  text-decoration: none !important; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item .logo_cia {
+  grid-area: logo;
+  justify-self: center;
+  align-self: center;
+  height: unset;
+  width: 100px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item .seg_name {
+  grid-area: seg_name;
+  justify-self: center;
+  align-self: center;
+  font-size: 12px;
+  color: #656565;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item .seg_price {
+  grid-area: seg_price;
+  justify-self: center;
+  align-self: end;
+  font-size: 17px;
+  font-weight: 600;
+  color: #545459; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item .seg_price b {
+  font-size: 28px;
+  margin-left: -5px;
+  padding: 0; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item .seg_day_lbl {
+  grid-area: seg_day_lbl;
+  justify-self: center;
+  align-self: normal;
+  font-size: 12px;
+  color: #a8a8a8;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item a.selectbtn {
+  /* grid-area: selectbtn; */
+  justify-self: center;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #007e47;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer !important; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__footer {
+  display: grid;
+  padding: 13px 15px 13px 15px;
+  background-color: #435162;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__footer .footer_ps {
+  font-size: 12px;
+  color: #fff; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__footer .searchtext {
+  display: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 {
+  max-width: 320px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__header {
+  grid-template-columns: 1fr min-content; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__header__subtitle {
+  display: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__header__logo {
+  text-align: left; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__item {
+  grid-template-columns: 4fr 1fr 4fr;
+  padding: 15px 15px 15px 15px;
+  grid-template-areas: ". . seg_price" "seg_name . seg_day_lbl" ". . arr_date" "logo . selectbtn"; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__item .arr_date {
+  margin-top: 8px;
+  justify-self: center; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__footer {
+  grid-template-columns: auto;
+  grid-template-rows: auto; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__footer .footer_ps {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__footer .footer_logo {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 8px;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__footer .searchtext {
+  text-align: center !important; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 {
+  max-width: 740px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header {
+  grid-template-columns: auto 96px min-content; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header__logo {
+  text-align: right; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item {
+  grid-template-columns: 4fr 5fr 5fr 3fr;
+  padding: 0px 15px 0px 15px;
+  grid-template-areas: "logo seg_name seg_price selectbtn" "logo seg_name seg_day_lbl selectbtn"; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item .arr_date {
+  justify-self: start; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer {
+  grid-template-columns: auto min-content; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__title {
+  display: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header {
+  grid-template-columns: auto;
+  justify-content: center; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__subtitle {
+  font-size: 16px;
+  color: #ffffff;
+  display: block; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__logo {
+  /* display: none; */ }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__selection {
+  display: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer {
+  grid-template-columns: auto auto; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer a {
+  text-decoration: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__header .comp-newshortcode__header__logo {
+  display: none !important; }
+
+@media only screen and (max-width: 600px) {
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 {
+    max-width: 600px; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header {
+    grid-template-columns: auto 96px min-content; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header__logo {
+    text-align: right; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item {
+    grid-template-columns: 4fr 4fr 1fr 4fr 4fr;
+    padding: 10px 15px 10px 15px;
+    grid-template-areas: "logo . . seg_price selectbtn" "logo seg_name . seg_day_lbl selectbtn" "logo . . arr_date selectbtn"; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item .arr_date {
+    margin-top: 8px;
+    justify-self: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer {
+    grid-template-columns: auto min-content; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__title {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header {
+    grid-template-columns: auto;
+    justify-content: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__subtitle {
+    font-size: 12px;
+    color: #ffffff;
+    display: block; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__logo {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__selection {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer {
+    grid-template-columns: auto auto; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer a {
+    text-decoration: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer .searchlogo {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer .searchtext {
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    color: #435162; } }
+
+@media only screen and (max-width: 480px) {
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 {
+    max-width: 320px; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header {
+    grid-template-columns: 1fr min-content; }
+  .seguros-promo .comp-newshortcode .comp-newshortcode__header__subtitle {
+    font-size: 9px !important;
+    color: #ffffff;
+    font-weight: normal; }
+  .seguros-promo .comp-newshortcode .comp-newshortcode__header__subtitle .comp-newshortcode__ideal_para {
+    font-size: 10px !important;
+    color: #ffffff;
+    font-weight: bold; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__header__logo {
+    /* text-align: left; */
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item {
+    grid-template-columns: 4fr 1fr 4fr;
+    padding: 15px 15px 15px 15px;
+    grid-template-areas: "seg_name . seg_price" "seg_name . seg_day_lbl" "seg_name . ." "logo . selectbtn"; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item .arr_date {
+    margin-top: 8px;
+    justify-self: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer {
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer .footer_ps {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer .footer_logo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 8px;
+    text-align: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__footer .searchtext {
+    text-align: center !important; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__title {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--notitle .comp-newshortcode__header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header {
+    grid-template-columns: auto;
+    justify-content: center; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__subtitle {
+    font-size: 16px;
+    color: #ffffff;
+    display: block; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__logo {
+    /* display: none; */ }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--noorigin .comp-newshortcode__header__selection {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer {
+    grid-template-columns: auto auto; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer a {
+    text-decoration: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer .searchlogo {
+    display: none; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--nologo .comp-newshortcode__footer .searchtext {
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    color: #435162; } }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card {
+  display: grid;
+  grid-gap: 0 5px;
+  grid-template-rows: max-content;
+  text-decoration: none !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 0 !important;
+  margin: 0.95%;
+  float: left; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .logo_cia {
+  grid-area: logo;
+  justify-self: center;
+  align-self: center;
+  height: 62px;
+  width: 62px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_name {
+  grid-area: seg_name;
+  justify-self: left;
+  align-self: center;
+  text-align: left;
+  font-size: 12px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2c3138; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card a.selectbtn {
+  grid-area: selectbtn;
+  justify-self: center;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #007e47;
+  -webkit-text-fill-color: white;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  cursor: pointer !important;
+  text-decoration: none; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card a.selectbtn:hover {
+  background-color: #64ba00 !important; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card a.selectbtn .rightarrow {
+  display: none; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card a.selectbtn:hover > .rightarrow {
+  display: inline-block;
+  position: absolute;
+  margin-left: 17px; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_bag_ext {
+  grid-area: seg_bag_ext;
+  justify-self: left;
+  align-self: center;
+  font-size: 12px;
+  -webkit-text-fill-color: #a8a8a8;
+  color: #a8a8a8;
+  text-align: left;
+  padding-left: 6%; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_assist_med {
+  grid-area: seg_assist_med;
+  justify-self: left;
+  align-self: center;
+  font-size: 12px;
+  -webkit-text-fill-color: #a8a8a8;
+  color: #a8a8a8;
+  text-align: left;
+  padding-left: 6%; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_bag_ext_val {
+  grid-area: seg_bag_ext_val;
+  justify-self: right;
+  align-self: center;
+  font-size: 10px;
+  -webkit-text-fill-color: #a8a8a8;
+  color: #a8a8a8;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 1em; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_assist_med_val {
+  grid-area: seg_assist_med_val;
+  justify-self: right;
+  align-self: center;
+  font-size: 10px;
+  -webkit-text-fill-color: #a8a8a8;
+  color: #a8a8a8;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10%;
+  margin-bottom: 1em; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__item-card .seg_division {
+  grid-area: seg_division;
+  justify-self: center;
+  height: 1px;
+  border-bottom: solid 0.5px rgba(67, 81, 98, 0.15);
+  width: 100%;
+  margin-bottom: 10px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__item-card {
+  grid-template-columns: 4fr 1fr 4fr;
+  padding: 15px 15px 15px 15px;
+  grid-template-areas: ". . seg_price" "seg_name . seg_day_lbl" ". . arr_date" "logo . selectbtn"; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod03 .comp-newshortcode__item-card .arr_date {
+  margin-top: 8px;
+  justify-self: center; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item-card {
+  grid-template-columns: 5fr 2fr 2fr 2fr;
+  padding: 0px 15px 0px 15px;
+  grid-template-areas: "logo seg_name seg_name ." "logo seg_name seg_name ." "seg_division seg_division seg_division seg_division" "seg_assist_med seg_assist_med seg_assist_med_val seg_assist_med_val" "seg_bag_ext seg_bag_ext seg_bag_ext_val seg_bag_ext_val" "selectbtn selectbtn selectbtn selectbtn";
+  height: 215px;
+  padding-bottom: .2em !important; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item-card .arr_date {
+  justify-self: start; }
+
+.comp-newshortcode__header-card {
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__footer-card {
+  display: grid;
+  padding: 3px 15px 0 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__footer-card .footer_ps {
+  color: #435162; }
+
+.seguros-promo .comp-newshortcode .comp-newshortcode__header.comp-newshortcode__header-widget {
+  text-align: center;
+  display: inline-block;
+  padding-top: 11px; }
+
+.comp-newshortcode__header-widget .comp-newshortcode__header__subtitle {
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400; }
+
+.comp-newshortcode__header-widget .comp-newshortcode__header__subtitle span {
+  font-weight: 500; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_bag_ext {
+  grid-area: seg_bag_ext;
+  justify-self: center;
+  align-self: center;
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+  margin-top: 20px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_assist_med {
+  grid-area: seg_assist_med;
+  justify-self: center;
+  align-self: center;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+  margin-top: 20px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_bag_ext_val {
+  grid-area: seg_bag_ext_val;
+  justify-self: center;
+  align-self: center;
+  font-size: 14px;
+  color: #a8a8a8;
+  text-align: center;
+  font-weight: 500;
+  padding: 0; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_assist_med_val {
+  grid-area: seg_assist_med_val;
+  justify-self: center;
+  align-self: center;
+  font-size: 14px;
+  color: #a8a8a8;
+  text-align: center;
+  font-weight: 500;
+  padding: 0; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .logo_cia {
+  grid-area: logo;
+  justify-self: center;
+  align-self: center;
+  height: 85px;
+  width: 85px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_name {
+  grid-area: seg_name;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #435162;
+  padding: 0 8px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card a.selectbtn {
+  grid-area: selectbtn;
+  justify-self: center;
+  align-self: center;
+  border-radius: 5px;
+  background-color: #007e47;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 16px;
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  cursor: pointer !important;
+  text-decoration: none; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .seg_division {
+  grid-area: seg_division;
+  justify-self: center;
+  height: 0;
+  border-bottom: solid 0.5px rgba(67, 81, 98, 0.15);
+  width: 100%;
+  margin-bottom: 0px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card {
+  box-shadow: none;
+  width: 100% !important;
+  margin: 0 !important;
+  background-color: #f0f3f5;
+  grid-template-columns: 4fr 4fr 4fr;
+  border-radius: 0;
+  grid-template-areas: "logo seg_assist_med seg_bag_ext" "logo seg_assist_med seg_bag_ext" "logo seg_assist_med seg_bag_ext" "logo seg_assist_med_val seg_bag_ext_val" "logo seg_assist_med_val seg_bag_ext_val" "seg_name selectbtn selectbtn" "seg_division seg_division seg_division"; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__item-card .best-deal-svg {
+  position: absolute;
+  margin-top: -1px; }
+
+.seguros-promo .comp-newshortcode.comp-newshortcode-widget .comp-newshortcode__footer-widget {
+  border-radius: 0 0 5px 5px;
+  height: 30px;
+  display: block;
+  text-align: center;
+  padding-top: 12px; }
+
+.comp-newshortcode__widget__logo svg {
+  width: 110px;
+  height: 20px; }
+
+@media only screen and (max-width: 600px) {
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item-card {
+    grid-template-columns: 4fr 2fr 4fr;
+    padding: 15px 15px 15px 15px;
+    margin-top: 12px;
+    grid-template-areas: "logo seg_name seg_name" "logo seg_name seg_name ." "seg_division seg_division seg_division seg_division" "seg_assist_med seg_assist_med seg_assist_med seg_assist_med_val" "seg_bag_ext seg_bag_ext seg_bag_ext seg_bag_ext_val" "selectbtn selectbtn selectbtn selectbtn"; }
+  .seguros-promo .comp-newshortcode.comp-newshortcode--mod01 .comp-newshortcode__item-card .arr_date {
+    margin-top: 8px;
+    justify-self: center; }
+  .seguros-promo .comp-newshortcode .comp-newshortcode__item-card {
+    width: 98% !important; }
+  .seguros-promo .comp-newshortcode .comp-newshortcode__item-card .best-deal-svg svg {
+    float: right;
+    margin-right: 25%; } }
