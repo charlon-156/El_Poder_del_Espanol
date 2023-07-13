@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #5846f9;
+  color: #ce0b0bf7;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8577fb;
+  color: #9a0909f7;
   text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #ce0b0bf7;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -467,7 +467,7 @@ h6 {
 
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #5846f9;
+  color: #e7a500;
 }
 
 #hero .animated {
@@ -574,7 +574,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #ce0b0bf7;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -593,7 +593,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #942700;
 }
 
 .about .content ul {
@@ -608,7 +608,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color: #ce0b0bf7;
 }
 
 .about .content p:last-child {
@@ -861,7 +861,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #b1a9fc;
+  color: #ce0b0b71;
   font-size: 26px;
 }
 
@@ -947,7 +947,7 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #5846f9;
+  background: #ce0b0bf7;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -963,7 +963,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: #ffbb2c;
+  background: #ce0b0b84;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1217,7 +1217,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(45deg, rgba(227, 72, 0, 0.9) 0%, rgba(251, 218, 2, 0.9) 100%);
+  background: linear-gradient(45deg, rgba(227, 42, 0, 0.9) 0%, rgba(251, 143, 2, 0.9) 100%);
 }
 
 .faq .section-title h2,
@@ -1244,7 +1244,7 @@ section {
 
 .faq .faq-list li {
   padding: 30px;
-  background: #fff;
+  background: linear-gradient(45deg, rgba(254, 247, 57, 0.6) 0%, rgba(255, 195, 44, 0.9) 100%);;
   border-radius: 5px;
   position: relative;
 }
@@ -1266,7 +1266,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8577fb;
+  color: #ce0b0bf7;
 }
 
 .faq .faq-list .icon-show,
@@ -1280,6 +1280,7 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #942700 !important;
 }
 
 .faq .faq-list .icon-show {
@@ -1287,11 +1288,11 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #2c4964;
+  color: #ce0b0bf7;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5846f9;
+  color: #cd0707;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1321,7 +1322,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #ce0b0bf7;
   border-radius: 50%;
   padding: 8px;
 }
@@ -1396,7 +1397,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5846f9;
+  border-color: #942700;
 }
 
 .contact .php-email-form input {
@@ -1408,7 +1409,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5846f9;
+  background: #ce0b0bf7;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1417,7 +1418,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #7b27d8;
+  background: #942700;
 }
 
 @keyframes animate-loading {
@@ -1602,7 +1603,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: rgba(123, 39, 216, 0.8);
+  background: #942700;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1610,11 +1611,11 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #5846f9;
+  background: #942700;
 }
 
 #footer .copyright-wrap {
-  border-top: 1px solid #8577fb;
+  border-top: 1px solid rgba(251, 143, 2, 0.0);
 }
 
 #footer .credits {
