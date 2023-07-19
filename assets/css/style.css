@@ -1631,8 +1631,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  background: rgba(148, 39, 0, 0.85);
+  color: rgb(255, 255, 255);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1645,6 +1645,6 @@ section {
 
 #footer .social-links a:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #772000;
   text-decoration: none;
 }
