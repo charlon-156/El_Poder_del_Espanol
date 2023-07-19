@@ -2,7 +2,7 @@
 Para conferir nossa documentação da disciplina de Projeto Interface de Usuario. Clique no link abaixo:
 <a href="https://docs.google.com/document/d/1IcMFcMkMr7CEXgaX_UPb5QdFtMkupGPOIgUljQGPEYg/edit?usp=sharing"> link do relatório</a>
 
-link da demo do <a href="https://bootstrapmade.com/demo/Techie/">template </a>
+Link da demo do <a href="https://bootstrapmade.com/demo/Techie/">template </a>
 
 # El_Poder_del_Español
 "Bem-vindo ao 'Por Que Estudar Espanhol?' - o seu guia completo para descobrir as vantagens e motivos convincentes para aprender a língua espanhola. Este site foi criado com o objetivo de inspirar e informar os interessados em aprender espanhol, fornecendo insights valiosos sobre os benefícios que essa língua tão rica e global pode trazer.
